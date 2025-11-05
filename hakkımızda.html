@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Güney Mağaza Dekorasyon</title>
+
+    <!-- SEO uyumlu font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome (ikonlar) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/about.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Güney Mağaza Dekorasyon Logosu" />
+        </a>
+      </div>
+
+      <nav>
+        <a href="rafsistemleri.html">Raf Sistemleri</a>
+        <a href="ortasistemleri.html">Orta Sistemleri</a>
+        <a href="standlar.html">Standlar</a>
+
+        <div class="dropdown">
+          <a href="#">Mankenler</a>
+          <div class="dropdown-menu">
+            <a href="terzimanken.html">Terzi Mankeni</a>
+            <a href="plastikmanken.html">Plastik Manken</a>
+            <a href="polyestermanken.html">Polyester Manken</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#">Askılar</a>
+          <div class="dropdown-menu">
+            <a href="plastikaskılar.html">Plastik Askı</a>
+            <a href="ahsapaskılar.html">Ahşap Askı</a>
+          </div>
+        </div>
+
+        <a href="projeler.html">Projelerimiz</a>
+        <a href="hakkımızda.html">Hakkımızda</a>
+        <a href="iletişim.html">İletişim</a>
+      </nav>
+
+      <a href="https://wa.me/905322919277" target="_blank" class="whatsapp-btn">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+          alt="WhatsApp"
+        />
+        WhatsApp
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobile-nav">
+      <button class="close-btn" id="close-btn">&times;</button>
+
+      <a href="rafsistemleri.html">Raf Sistemleri</a>
+      <a href="ortasistemleri.html">Orta Sistemleri</a>
+      <a href="standlar.html">Standlar</a>
+
+      <a href="#" id="mankenler-btn"
+        >Mankenler <span class="plus-btn" id="plus">+</span></a
+      >
+      <div class="submenu" id="submenu">
+        <a href="terzimanken.html">Terzi Mankeni</a>
+        <a href="plastikmanken.html">Plastik Manken</a>
+        <a href="polyestermanken.html">Polyester Manken</a>
+      </div>
+
+      <a href="askılar.html">Askılar</a>
+      <a href="projeler.html">Projelerimiz</a>
+      <a href="hakkımızda.html">Hakkımızda</a>
+      <a href="iletişim.html">İletişim</a>
+
+      <div class="mobile-whatsapp">
+        <button onclick="window.open('https://wa.me/905322919277','_blank')">
+          WhatsApp ile İletişime Geç
+        </button>
+      </div>
+    </div>
+
+     <!-- HAKKIMIZDA: Hero -->
+    <section class="about-hero" id="hakkimizda">
+      <div class="about-hero__wrap">
+        <div class="about-hero__content">
+          <span class="eyebrow">Güney Mağaza Dekorasyon</span>
+          <h1>Mağaza deneyimini dönüştüren tasarım ve üretim</h1>
+          <p>
+            10+ yıllık tecrübemizle; raf, orta sistem ve stand çözümlerinde
+            tasarımdan üretime, montajdan satış sonrası desteğe uçtan uca hizmet veriyoruz.
+          </p>
+          <div class="about-hero__cta">
+            <a href="projeler.html" class="btn-small">Projelerimizi Gör</a>
+            <a href="https://wa.me/905322919277" target="_blank" class="btn-link"><i class="fab fa-whatsapp"></i> Hemen Teklif Alın</a>
+          </div>
+
+          <ul class="about-hero__bullets">
+            <li><i class="fas fa-check"></i> Ölçüye özel tasarım</li>
+            <li><i class="fas fa-check"></i> Hızlı üretim ve kurulum</li>
+            <li><i class="fas fa-check"></i> 2 yıl garanti</li>
+          </ul>
+        </div>
+
+        <div class="about-hero__media">
+          <div class="media-main">
+            <img src="images/slider/3.jpg" alt="Üretim ve montaj sürecimizden kare" loading="lazy" decoding="async" />
+          </div>
+          <div class="media-float">
+            <img src="images/slider/4.jpg" alt="Atölyemiz" loading="lazy" decoding="async" />
+            <div class="floating-badge">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HAKKIMIZDA: İstatistikler -->
+    <section class="about-stats">
+      <div class="about-stats__wrap">
+        <div class="stat">
+          <strong>750+</strong>
+          <span>Tamamlanan Proje</span>
+        </div>
+        <div class="stat">
+          <strong>25+</strong>
+          <span>Uzman Ekip</span>
+        </div>
+        <div class="stat">
+          <strong>30+</strong>
+          <span>Şehirde Kurulum</span>
+        </div>
+        <div class="stat">
+          <strong>2 Yıl</strong>
+          <span>Ürün + İşçilik Garantisi</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- HAKKIMIZDA: Değerlerimiz -->
+    <section class="about-values">
+      <div class="about-values__wrap">
+        
+
+        <div class="values-grid">
+          <article class="value">
+            <i class="fas fa-ruler-combined"></i>
+            <h3>Ölçüye Özel</h3>
+            <p>Mekana ve ihtiyaca tam uyumlu planlama.</p>
+          </article>
+          <article class="value">
+            <i class="fas fa-truck-fast"></i>
+            <h3>Hızlı Teslim</h3>
+            <p>Optimize üretim akışı ile kısa terminler.</p>
+          </article>
+          <article class="value">
+            <i class="fas fa-screwdriver-wrench"></i>
+            <h3>Profesyonel Montaj</h3>
+            <p>Operasyonunuzu aksatmadan kurulum.</p>
+          </article>
+          <article class="value">
+            <i class="fas fa-shield-heart"></i>
+            <h3>Dayanıklı Malzeme</h3>
+            <p>Uzun ömürlü, sağlam ve güvenli çözümler.</p>
+          </article>
+          <article class="value">
+            <i class="fas fa-handshake-angle"></i>
+            <h3>Şeffaf İletişim</h3>
+            <p>Süreç boyunca net bilgi akışı.</p>
+          </article>
+          <article class="value">
+            <i class="fas fa-leaf"></i>
+            <h3>Sürdürülebilirlik</h3>
+            <p>Verimli üretim, minimum israf.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HAKKIMIZDA: Sürecimiz -->
+    <section class="about-process">
+      <div class="about-process__wrap">
+        
+
+        <ol class="process-steps">
+          <li class="step">
+            <div class="icon"><i class="fas fa-pen-ruler"></i></div>
+            <h3>1. Keşif & Tasarım</h3>
+            <p>Yerinde ölçüm, ihtiyaç analizi ve 3D konsept.</p>
+          </li>
+          <li class="step">
+            <div class="icon"><i class="fas fa-industry"></i></div>
+            <h3>2. Üretim</h3>
+            <p>Kalite kontrol süreçleri ile seri üretim.</p>
+          </li>
+          <li class="step">
+            <div class="icon"><i class="fas fa-people-carry-box"></i></div>
+            <h3>3. Lojistik</h3>
+            <p>Zamanında sevkiyat, sahaya hazırlık.</p>
+          </li>
+          <li class="step">
+            <div class="icon"><i class="fas fa-tools"></i></div>
+            <h3>4. Montaj & Teslim</h3>
+            <p>Temiz kurulum ve son kontrol ile teslim.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- HAKKIMIZDA: Galeri -->
+    <section class="about-gallery">
+      <div class="about-gallery__wrap">
+        
+
+        <div class="masonry">
+          <figure class="tile"><img src="images/slider/1.jpg" alt="Atölye" loading="lazy" decoding="async" /></figure>
+          <figure class="tile"><img src="images/slider/2.jpg" alt="Montaj" loading="lazy" decoding="async" /></figure>
+          <figure class="tile"><img src="images/slider/3.jpg" alt="Detay" loading="lazy" decoding="async" /></figure>
+          <figure class="tile"><img src="images/slider/4.jpg" alt="Üretim" loading="lazy" decoding="async" /></figure>
+          <figure class="tile"><img src="images/slider/5.jpg" alt="Saha" loading="lazy" decoding="async" /></figure>
+          <figure class="tile"><img src="images/slider/6.jpg" alt="Raf sistemleri" loading="lazy" decoding="async" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- İsteğe bağlı: çağrı -->
+    <section class="about-cta-wide">
+      <div class="about-cta-wide__wrap">
+        <h2>Projeniz için birlikte planlayalım</h2>
+        <p>Kısa bir keşif ile en uygun çözümü önerelim.</p>
+        <div class="actions">
+          <a class="btn-small" href="iletişim.html">Bize Ulaşın</a>
+        </div>
+      </div>
+    </section>
+   
+
+
+  
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-col brand">
+          <h3 class="footer-logo">Güney Mağaza Dekorasyon</h3>
+          <p>Mağaza içi raf, orta sistem ve stand üretiminde tasarımdan montaja anahtar teslim çözümler.</p>
+
+          <div class="social">
+            <a href="https://instagram.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://wa.me/905322919277" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col links">
+          <h4>Bağlantılar</h4>
+          <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="projeler.html">Projelerimiz</a></li>
+            <li><a href="hakkımızda.html">Hakkımızda</a></li>
+            <li><a href="index.html#sss">SSS</a></li>
+            <li><a href="iletişim.html">İletişim</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col contact">
+          <h4>İletişim</h4>
+          <ul>
+            <li><i class="fas fa-location-dot"></i><span>Güngören, İstanbul</span></li>
+            <li><i class="fas fa-phone"></i><a href="tel:+905322919277">+90 532 291 92 77</a></li>
+            <li><i class="fas fa-phone"></i><a href="tel:+905383414094">+90 538 341 40 94</a></li>
+            <li><i class="fas fa-phone"></i><a href="tel:+902125059404">+90 212 505 94 04</a></li>
+            <li><i class="fas fa-envelope"></i><a href="mailto:guneydekorasyonraf@gmail.com">guneydekorasyonraf@gmail.com</a></li>
+            <li><i class="fas fa-clock"></i><span>Pzt–Cmt: 09.00–19.00</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col map">
+          <h4>Konum</h4>
+          <iframe
+            class="footer-map-embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.963263598091!2d32.84111887559662!3d39.920770171537874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb58c19c1a65%3A0x70869acda501e91!2sAnkara!5e0!3m2!1str!2str!4v1738943230000!5m2!1str!2str"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+            aria-label="Harita">
+          </iframe>
+          <a class="map-link" href="https://www.google.com/maps?hl=tr&gl=tr&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x14cabb58c19c1a65:0x70869acda501e91" target="_blank" rel="noopener">Haritayı büyüt</a>
+        </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Güney Mağaza Dekorasyon. Tüm hakları saklıdır.</span>
+        <div class="mini-links">
+          <a href="#">KVKK</a>
+          <a href="#">Çerez Politikası</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
